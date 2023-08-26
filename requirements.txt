@@ -2,7 +2,7 @@ langchain
 langchainplus-sdk
 pymupdf
 chromadb==0.3.29
-line-bot-sdk
+line-bot-sdk==2.4.2
 fastapi
 uvicorn[standard]
 openai
