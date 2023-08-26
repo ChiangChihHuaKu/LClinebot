@@ -5,4 +5,4 @@ line-bot-sdk
 fastapi
 uvicorn[standard]
 openai
-pydantic
+pydantic=1.10.9
