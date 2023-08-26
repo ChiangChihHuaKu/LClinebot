@@ -51,7 +51,7 @@ services:
 #     sync: false
 #   - key: LINE_CHANNEL_SECRET
 #     sync: false
-   type: web
+  - type: web
    name: line-bot-python-aiohttp
    env: python
    repo: https://github.com/ChiangChihHuaKu/LClinebot.git
