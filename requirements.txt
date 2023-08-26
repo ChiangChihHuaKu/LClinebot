@@ -1,4 +1,4 @@
-langchain==0.0.228
+langchain==0.0.22
 langchainplus-sdk==0.0.20
 pymupdf
 chromadb
