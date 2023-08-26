@@ -1,4 +1,18 @@
 services:
+- type: web
+   name: linebot_aiohttp
+   env: python3
+   repo: https://github.com/ChiangChihHuaKu/LClinebot.git
+   buildCommand: pip install -r requirements.txt
+   startCommand: python main.py
+   plan: free
+   autoDeploy: false
+   envVars:
+   - key: LINE_CHANNEL_ACCESS_TOKEN
+     sync: false
+   - key: LINE_CHANNEL_SECRET
+     sync: false
+
 - #type: web
   #name: line-bot-python-flask
   #env: python
@@ -51,16 +65,3 @@ services:
 #     sync: false
 #   - key: LINE_CHANNEL_SECRET
 #     sync: false
- - type: web
-   name: linebot_aiohttp
-   env: python3
-   repo: https://github.com/ChiangChihHuaKu/LClinebot.git
-   buildCommand: pip install -r requirements.txt
-   startCommand: python main.py
-   plan: free
-   autoDeploy: false
-   envVars:
-   - key: LINE_CHANNEL_ACCESS_TOKEN
-     sync: false
-   - key: LINE_CHANNEL_SECRET
-     sync: false
