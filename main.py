@@ -14,7 +14,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
 
-from linebot import WebhookParser
+from linebot.v3.webhook import WebhookParser
 from linebot import AsyncLineBotApi
 from linebot.aiohttp_async_http_client import AiohttpAsyncHttpClient
 from linebot.exceptions import (
