@@ -1,7 +1,7 @@
 langchain
 langchainplus-sdk
 pymupdf
-chromadb
+chromadb==0.3.29
 line-bot-sdk
 fastapi
 uvicorn[standard]
