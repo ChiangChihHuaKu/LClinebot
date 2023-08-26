@@ -1,7 +1,6 @@
 langchain
 pymupdf
 chromadb
-tiktoken==0.4.0
 line-bot-sdk
 fastapi
 uvicorn[standard]
