@@ -1,0 +1,10 @@
+langchain
+pymupdf
+chromadb
+tiktoken
+line-bot-sdk
+fastapi
+uvicorn[standard]
+openai
+pydantic
+tiktoken
