@@ -1,6 +1,6 @@
 services:
 - type: web
-   name: line-bot-python-aiohttp
+   name: line-bot-aiohttp
    env: python
    repo: https://github.com/ChiangChihHuaKu/LClinebot.git
    buildCommand: cd examples/aiohttp-echo;pip install -r requirements.txt
