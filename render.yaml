@@ -52,3 +52,5 @@ services:
      sync: false
    - key: LINE_CHANNEL_SECRET
      sync: false
+   - key: PYTHON_VERSION
+     sync: 3.10
