@@ -11,3 +11,4 @@ docx2txt
 pandas
 pypdf
 tiktoken==0.4.0
+flask==2.2.2
